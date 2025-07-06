@@ -1,0 +1,83 @@
+1. Data Quality Crisis
+
+Scenario: Your company’s analytics are broken because of dirty data.
+
+    Task: Write a query to find all customers with:
+
+        Invalid emails (missing @ or .).
+
+        Phone numbers with incorrect digits (e.g., 123-456 instead of 10+ digits).
+
+2. Revenue Leak Investigation
+
+Scenario: Finance reports missing revenue from refunded orders.
+
+    Task: Calculate net revenue (gross sales - refunds) per product, including products with $0 refunds.
+
+        Tables: orders, refunds, products.
+
+        Hint: Use COALESCE() to handle NULL refunds.
+
+3. Supply Chain Optimization
+
+Scenario: Warehouse wants to reduce overstock.
+
+    Task: Identify products:
+
+        Sold <5 times in the last 6 months.
+
+        With >50 units in stock.
+
+        Ordered from the most expensive supplier.
+
+4. User Retention Analysis
+
+Scenario: Marketing needs to reduce churn.
+
+    Task: Find users who:
+
+        Made a purchase 6+ months ago.
+
+        Have not logged in for 3+ months.
+
+        Did NOT receive a re-engagement email.
+
+5. Dynamic Pricing Model
+
+Scenario: Competitors are undercutting your prices.
+
+    Task: Generate a price adjustment report:
+
+        If a product’s price is 10% higher than the competitor’s average → flag for discount.
+
+        If it’s 20% lower → flag for price increase.
+
+6. Fraud Detection
+
+Scenario: Suspicious orders are slipping through.
+
+    Task: Flag orders where:
+
+        Billing/shipping country mismatch.
+
+        Order value > $1000 but from a new account (<7 days old).
+
+        Same credit card used across multiple accounts.
+
+7. A/B Test Analysis
+
+Scenario: Did the new checkout page increase conversions?
+
+    Task: Compare conversion rates (orders/visits) between:
+
+        Users who saw layout_v1 vs. layout_v2.
+
+        Segment results by user location (US vs. EU).
+
+8. Inventory Fulfillment
+
+Scenario: Customers complain about delayed orders.
+
+    Task: For each order, calculate:
+
+        Rank suppliers by average delay (worst to best).
