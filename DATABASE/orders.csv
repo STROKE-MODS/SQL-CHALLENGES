@@ -1,0 +1,7 @@
+order_id,user_id,product_id,order_date,status,quantity,price
+1001,1,101,2024-06-10,delivered,2,25.99
+1002,1,102,2024-06-15,pending,1,19.99
+1003,2,103,2024-06-20,delivered,1,89.99
+1004,3,101,2024-06-25,cancelled,3,25.99
+1005,4,104,2024-06-28,pending,2,12.50
+1006,4,105,2024-06-29,delivered,1,15.00
