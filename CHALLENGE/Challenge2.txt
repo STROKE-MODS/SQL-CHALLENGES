@@ -1,0 +1,14 @@
+💰 Challenge 2: Revenue Leak Investigation
+
+Scenario: Your finance team reports inconsistent revenue numbers. You suspect refunds aren't being properly deducted from sales.
+
+Task:
+Write a SQL query that calculates:
+
+    --Gross revenue (quantity * price)
+
+    --Total refunds (if any)
+
+    --Net revenue (gross - refunds)
+      Grouped by product category, including categories with $0 refunds.
+      
