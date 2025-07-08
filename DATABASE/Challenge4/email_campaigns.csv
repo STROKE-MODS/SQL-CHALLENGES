@@ -1,0 +1,4 @@
+campaign_id,user_id,email_type,sent_date,opened
+1,1,re-engagement,2024-06-01,Yes
+2,4,discount,2024-05-15,No
+3,5,newsletter,2024-06-10,Yes

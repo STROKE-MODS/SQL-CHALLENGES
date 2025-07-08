@@ -1,0 +1,8 @@
+user_id,username,last_purchase,last_login,received_reengagement_email,country
+1,john,2023-12-01,2024-06-28,Yes,US
+2,emma,2024-01-15,NULL,No,UK
+3,alex,2023-11-10,2024-02-05,No,US
+4,mike,2023-10-01,NULL,Yes,CA
+5,lisa,2024-02-20,2024-06-01,No,AU
+6,duplicate1,2023-09-01,NULL,No,IN
+7,duplicate2,2023-09-01,NULL,No,IN
