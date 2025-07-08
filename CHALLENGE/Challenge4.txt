@@ -1,0 +1,10 @@
+Challenge 4: User Churn Analysis
+
+Scenario: Marketing needs to save at-risk customers.
+Task: Find users who:
+
+    -- Made 1 purchase 6+ months ago.
+
+    -- Haven’t logged in for 3+ months.
+
+    -- Never received a re-engagement email.
