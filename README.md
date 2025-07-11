@@ -5,7 +5,7 @@ Challenges for sql with solution.
 - Challenge 3 uploaded on - 8th July, 2025
 - Challenge 4 uploaded on - 8th July, 2025
 
-<h3>Guys My last topic is left which is Windows Function which i will be doing then More challenges will be coming .</h3>
+<h3>Guys I am now starting C language then i would be sharing my practice questions over a new repo  Obviously so that you can also Practice and Master it.</h3>
 <h4>Follow for not missing any update.</h4>
 
 <h4>~STROKE-MODS</h4>
